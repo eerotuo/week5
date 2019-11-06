@@ -7,10 +7,13 @@
     "start": "node src/index.js localhost 8080"
   },
   "dependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1",
     "body-parser": "1.19.0",
     "express": "4.16.4",
-    "nodemon": "1.19.4",
-    "pug": "2.0.4"
+    "pug": "2.0.4",
+    "mongoose": "^5.3.14"
   },
+
   "keywords": []
 }
